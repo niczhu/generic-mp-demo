@@ -26,11 +26,11 @@ public class MpAccountController extends BaseController {
     private MpAccountRepository mpAccountRepository;
 
     /**
-     * 根据id查看AccountModel <br>
-     * <b>GET /account/{id}.htm</b> <br>
-     * 必填参数： <br>
-     * 可选参数： <br>
-     * 返回值：AccountModel详情页面
+     * 根据id查看MpAccountVo
+     * GET /mpAccount/{id}
+     * 必填参数：
+     * 可选参数：
+     * 返回值：MpAccountVo 详情页面
      *
      * @param id 查询数据id
      * @return 详情页面模板
